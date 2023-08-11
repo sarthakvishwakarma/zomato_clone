@@ -3,6 +3,7 @@ import './header.css';
 import search from './search.svg';
 import carrot from './caret-down-fill.svg';
 import location from './geo-alt.svg';
+import Login from '../../../buttton/login';
 
 
 const Header = () => {
@@ -37,7 +38,7 @@ const Header = () => {
         <div className="profile-wrapper">
 
           <img className='header-profile-image' src="https://b.zmtcdn.com/web/assets/2267aec184e096c98c46a1565a5563661664945464.png?fit=around%7C100%3A100&crop=100%3A100%3B%2A%2C%2A" alt="profile" />
-          <span className='header-username' > Sarthak </span>
+          <span className='header-username' > <Login/> </span>
           <img className='profile-options-icon' src={carrot} alt=""/>
         </div>
         
